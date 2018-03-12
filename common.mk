@@ -26,12 +26,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
 	gps.xml \
 
-# WiFi
-PRODUCT_PACKAGES += \
-	wpa_supplicant.conf \
-	nvram_net.txt \
-	nvram_mfg.txt
-
 # Rootdir
 PRODUCT_PACKAGES += \
 	fstab.sc8830 \
