@@ -34,7 +34,10 @@ PRODUCT_PACKAGES += \
 
 # Rootdir
 PRODUCT_PACKAGES += \
-	fstab.sc8830
+	fstab.sc8830 \
+	init.sc8830.rc \
+	init.sc8830.usb.rc \
+	ueventd.sc8830.rc
 
 # Media
 PRODUCT_PACKAGES += \
