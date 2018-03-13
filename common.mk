@@ -18,14 +18,6 @@ $(call inherit-product, device/samsung/scx35-common/common.mk)
 # Inherit scx30g-common vendor tree
 $(call inherit-product-if-exists, vendor/samsung/scx30g-common/scx30g-common-vendor.mk)
 
-# Bluetooth
-PRODUCT_PACKAGES += \
-	bt_vendor.conf
-
-# GPS
-PRODUCT_PACKAGES += \
-	gps.xml \
-
 # Rootdir
 PRODUCT_PACKAGES += \
 	fstab.sc8830 \
@@ -36,7 +28,3 @@ PRODUCT_PACKAGES += \
 # RIL
 PRODUCT_PACKAGES += \
 	rild.rc
-
-# Media
-PRODUCT_PACKAGES += \
-	media_codecs.xml
