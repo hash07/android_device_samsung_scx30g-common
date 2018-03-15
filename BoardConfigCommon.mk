@@ -18,6 +18,11 @@
 # RIL
 BOARD_RIL_CLASS += ../../../device/samsung/scx30g-common/ril
 
+# Graphics
+TARGET_RUNNING_WITHOUT_SYNC_FRAMEWORK := true
+TARGET_FORCE_SCREENSHOT_CPU_PATH := true
+NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
+
 # Recovery
 TARGET_RECOVERY_FSTAB := device/samsung/scx30g-common/rootdir/fstab.sc8830
 
